@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var library = [{
+            title: 'The Road Ahead',
+            author: 'Bill Gates',
+            libraryID: 1254
+        },
+        {
+            title: 'Walter Isaacson',
+            author: 'Steve Jobs',
+            libraryID: 4264
+        },
+        {
+            title: 'Mockingjay: The Final Book of The Hunger Games',
+            author: 'Suzanne Collins',
+            libraryID: 3245
+        }];
+        library.sort((a,b)=>{
+            return b.libraryID-a.libraryID;
+        });
+
+        library.forEach((li)=>{
+            console.log(`" title " : " ${li.title} "author" " : " ${li.author} "LibraryID" " :" ${li.libraryID} `);
+
+        });
+    </script>
+</body>
+
+</html>

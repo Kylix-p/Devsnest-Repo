@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(24, 22, 22);
+  }
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-family: sans-serif;
+    letter-spacing: 20px;
+    color: white;
+  }

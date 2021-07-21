@@ -1,0 +1,123 @@
+body {
+    background-color: #99a8e6;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.clock {
+    margin: auto;
+    width: 35%;
+    margin-top: 15rem;
+    margin-right: 33rem;
+
+}
+
+.middlecircle {
+    height: 400px;
+    width: 400px;
+    border: 60px solid rgb(18, 156, 219);
+    border-radius: 100%;
+    position: relative;
+    background-color: rgb(136, 177, 212);
+    box-shadow: 0 0 100px rgba(191, 233, 4, 0.7);
+
+}
+.innercircle {
+    height: 360px;
+    width: 360px;
+    position: absolute;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.7);
+    border-radius: 100%;
+
+}
+
+.innercircle {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 4px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.innercircle .center {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #262626;
+    border-radius: 100%;
+}
+
+.innercircle .hour {
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 3600s infinite linear;
+}
+
+.innercircle .hour:before {
+    position: absolute;
+    content: "";
+    background: #262626;
+    height: 132px;
+    width: 6px;
+    top: 60px;
+}
+
+.innercircle .minute {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 60s infinite linear;
+}
+
+.innercircle .minute:before {
+    position: absolute;
+    content: "";
+    background: #262626;
+    height: 90px;
+    width: 2px;
+    top: 100px;
+}
+
+.innercircle .second {
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 20s infinite linear;
+}
+
+.innercircle .second:before {
+    position: absolute;
+    content: "";
+    background: #dd0610;
+    height: 128px;
+    width: 4px;
+    top: 90px;
+}
+
+@keyframes time {
+    to {
+        transform: rotate(360deg);
+    }
+}

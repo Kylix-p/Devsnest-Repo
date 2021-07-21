@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #board {
+    height: 520px;
+    width: 520px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cell {
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+    background-color: purple;
+  }
+  
+  .cell:hover {
+    background-color: yellow;
+  }
+  
+  .cell-selected {
+    background-color: rgb(154, 154, 243);
+  }

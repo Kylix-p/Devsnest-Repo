@@ -1,0 +1,289 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(./bcg.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 75vh;
+  width: 75%;
+  margin-top: 8%;
+}
+
+.wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  height: 75vh;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+  
+}
+.flip{
+  transform: rotateY(180deg)
+}
+
+.back1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back9 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back10 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  width: 100%;
+  height: 100%;
+}
+.back11 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+  width: 100%;
+  height: 100%;
+}
+.back12 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-image: url("/6.png"); */
+   image-rendering:optimizeQuality;
+  
+ 
+}
+.front{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(144, 19, 254, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+img{
+  height: inherit;
+  width: inherit;
+}
+
+.score-card{
+margin:0% ;
+
+background: rgba(144, 19, 254, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 10%;
+  width: 10%;
+}
+
+p{
+  font-size: large;
+  font-weight: bolder;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: aliceblue;
+  padding: 0px;
+}

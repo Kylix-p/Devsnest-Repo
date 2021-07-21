@@ -1,0 +1,62 @@
+.meme-head {
+    text-align: center;
+}
+
+.meme-head {
+    font-weight: 700;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    /* border: 10px solid red; */
+    /* padding: 10px 20px; */
+    width: 524px;
+    height: 588px;
+    margin: auto;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, 40px); */
+	/* grid-template-columns: repeat(auto-fill, 40px); */
+	/* grid-template-rows: repeat(auto-fill, 40px); */
+    padding: 0;
+    margin: 4px;
+    border: 2px solid black;
+}
+.App{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* h2{
+    display: inline-block;
+} */
+img{
+    /* width: 100%; */
+    padding: 0 10px;
+    border-radius: 30px;
+}
+/* .box{
+    /* background-color: red; */
+    /* display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0; */
+    /* border: 1px solid gray; */
+/* }  */
+/* .Row:nth-child(odd)
+.box:nth-child(odd) {
+    background: red;
+  }
+  .Row:nth-child(even)
+ .box:nth-child(even) {
+    background:red;
+  } */

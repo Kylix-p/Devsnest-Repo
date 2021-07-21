@@ -1,0 +1,37 @@
+body{ 
+    margin: 30PX; 
+  }
+  .container{ border: 3px solid blue;
+    border-radius: 8px;
+    height: 297mm;
+    width: 210mm; 
+    display:block;
+    padding: 20px;
+    margin-top: 12px;
+  }
+  .data_left{
+    float: left;
+    border-right: 3px solid blue;
+    margin: 4px 0px;
+    padding: 23px;
+    display:  inline-block;
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+  } 
+  .data_right{
+    margin: 4px 0px;
+    padding: 23px;
+    display:  inline-block;
+    width: 60%;
+    box-sizing: border-box;
+  }
+  #heading{
+    width: 180px;
+    margin-top: -70px;
+    margin-left: 39%; background: white; 
+    text-align: center;
+  } 
+  .data{ margin: 20px;
+    padding: 20px;
+  }
